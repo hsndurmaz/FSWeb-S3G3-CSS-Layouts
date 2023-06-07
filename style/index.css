@@ -1,1 +1,105 @@
 /* CSS stillerinizi buraya girin */
+
+.giris {
+  font-family: "Courier New", Courier, monospace;
+  font-style: border;
+  background-color: #4285f4;
+  color: black;
+  box-shadow: #ea4335 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(54, 12, 238, 0.08) 0px 1px 0px inset;
+}
+.navItem {
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  background-color: #fbbc05;
+  text-decoration: none;
+}
+.navItem:hover {
+  background-color: #34a853;
+}
+.bloklar {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+}
+
+.isim {
+  margin-top: 70px;
+  flex-direction: column;
+  text-align: center;
+  float: left;
+}
+.görsel {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 200px;
+
+  background-color: #f5f5f5;
+}
+
+.resimler {
+  background-color: #f5f5f5;
+  justify-content: center;
+  max-width: 100;
+  height: 100;
+  gap: 100px;
+  margin-top: 100px;
+  display: flex;
+}
+.title {
+  display: flex;
+  gap: 350px;
+}
+.projem {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+
+  background-color: olive;
+  color: rgb(72, 38, 38);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  text-decoration: none;
+}
+.son {
+  background-color: olive;
+  font-size: x-large;
+  background-size: 80px;
+  text-align: center;
+}
+.logo {
+  font-size: 30px;
+  gap: 10px;
+  text-decoration: none;
+}
+.instagram {
+  border-style: solid;
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+}
+.linkedin {
+  border-style: solid;
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+}
+.instagram-logo {
+  width: 15px;
+  margin: auto;
+  border-style: solid;
+  text-align: center;
+  border: none;
+}
+.linkedin-logo {
+  width: 15px;
+  margin: auto;
+  border-style: solid;
+  text-align: center;
+  border: none;
+}
